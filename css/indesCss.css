@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* *{
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; */
+/* } */
+body {
+    background-color: whitesmoke;
+  }
+
+.mediaQuery{
+  font-size: 10px;
+}
+
+@media (min-width: 768px){
+    .mediaQuery{
+        font-size: 30px;
+    }
+}
+
+
+  .cajita{
+  width: 100px;
+  height: 100px;
+  border: 3px solid black;
+  padding: 5px;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 20px;
+}  
+ 
+.section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.cajitaConFlex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* h1 {
+    color: black;
+    text-align: center;
+  }
+  
+  p { */
+    /* font-family: verdana; */
+    /* font-size: 20px;
+  }
+  li {
+    float: left;
+  }
+  
+  a {
+    /* display: block; */
+    /* padding: 8px;
+    background-color: #dddddd;
+  } */
+
+  /* .dolarhoy1{
+   display: block;
+  border: 3px solid;
+  border-color: red ;
+  border-radius: 6px;  
+  padding: 2px;
+  width: 328px;
+  height: 272px; */
+
+/* } */
+  /* .logo{
+    perspective: 1000px;
+  } */

@@ -1,0 +1,29 @@
+.mediaQuery {
+    font-size: 10px;
+}
+
+
+.imagen {
+    border: solid red 2px;
+    text-align: center;
+    margin-bottom: 4px;
+}
+
+@media (min-width: 768px) {
+    .mediaQuery {
+        font-size: 20px;
+        color: red;
+    }
+}
+
+.imagen {
+    width: 300px;
+    height: auto;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+}
+
+
